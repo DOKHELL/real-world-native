@@ -13,7 +13,7 @@
             margin: 0;
           }
           a{
-            color: $RgbaGray;
+            color: $Gray;
             transition: color .1s;
             &:hover{
               color: gray;
@@ -25,15 +25,10 @@
     .header-logo{
       a{
         font-family: "Titillium Web", sans-serif;
-        color: #5CB85C;
+        color: $Salat;
         font-size: 24px;
         font-weight: 700;
       }
     }
-  }
-}
-.active{
-  a{
-    color: $RgbaBlack !important;
   }
 }

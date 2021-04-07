@@ -1,0 +1,16 @@
+extends  base
+
+block content
+    main.main
+        include header
+        .main-wrapper
+            section.section.sing-in
+                h2.sing-in-title Sign up
+                a(href='sing-in.html').sing-in-link Have an account?
+                form.sing-in-form
+                    input(type='text' placeholder='Username').sing-in-eusername
+                    input(type='text' placeholder='Email').sing-in-email
+                    input(type='text' placeholder='Password').sing-in-password
+                    button.sing-in-button Sing up
+
+        footer.footer
