@@ -1,0 +1,17 @@
+.conduit{
+  padding: 40px;
+  background-color: #5CB85C;
+  text-align: center;
+  .conduit-title{
+    color: $White;
+    font-size: 55px;
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  .conduit-text{
+    color: $White;
+    font-size: 25px;
+    font-weight: 300;
+  }
+}

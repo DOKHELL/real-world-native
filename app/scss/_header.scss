@@ -1,0 +1,39 @@
+.header{
+  padding: 13px 0;
+  .header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header-menu{
+      .header-menu-list{
+        display: flex;
+        .header-menu-list-item{
+          margin-right: 15px;
+          &:last-child{
+            margin: 0;
+          }
+          a{
+            color: $RgbaGray;
+            transition: color .1s;
+            &:hover{
+              color: gray;
+            }
+          }
+        }
+      }
+    }
+    .header-logo{
+      a{
+        font-family: "Titillium Web", sans-serif;
+        color: #5CB85C;
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+.active{
+  a{
+    color: $RgbaBlack !important;
+  }
+}
