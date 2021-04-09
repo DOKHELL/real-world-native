@@ -1,0 +1,48 @@
+.sing-in{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  .sing-in-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .sing-in-title{
+    font-family: $sansPro;
+    font-weight: 400;
+    font-size: 40px;
+    color: $Dark;
+    margin-bottom: 10px;
+  }
+  .sing-in-link{
+    color: $Salat;
+    margin-bottom: 10px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  input{
+    padding: 12px 24px;
+    width:540px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    border-radius: 4px;
+    color: $Gray-lite;
+  }
+  .sing-in-button{
+    color: $White;
+    padding: 12px 24px;
+    background-color: $Salat;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    &:hover{
+      background-color: $ForestGreen;
+    }
+  }
+}

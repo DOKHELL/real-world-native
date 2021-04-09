@@ -6,14 +6,28 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DOKHELL/real-world-native.git"
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-cache": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "normalize.css": "^8.0.1",
+    "pngquant": "^2.0.1"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "scss-lint": "0.0.0"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DOKHELL/real-world-native/issues"
-  },
-  "homepage": "https://github.com/DOKHELL/real-world-native#readme"
+  "license": "ISC"
 }
